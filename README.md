@@ -4,6 +4,13 @@ NI Package Manager API (Beta) for LabVIEW 2014 or later.
 ## Overview
 My goal is to provide users with a beta API for NI Package Manager tasks.  Please feel free to use this API, give feedback, and contribute.  NI will use this feedback to create an official NIPM API in the future.
 
+You can use this API to:
+* Install/uninstall packages
+* Get package attributes
+* Create feeds, add packages to feeds, remove packages from feeds, list packages in feeds
+* Register/unregister feeds
+* ...
+
 ## How to Install
 Prerequisites:
 * LabVIEW 2014 or later
