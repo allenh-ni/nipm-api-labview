@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-02 15:38:24" Modified_Date="2018-01-20 00:07:49" Creator="Bob Smith" Comments="" ID="606e607d5144e76eb125bdf7bed5398d">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-02 15:38:24" Modified_Date="2018-03-09 11:19:33" Creator="Bob Smith" Comments="" ID="28f7e90d2822d77dc3ea29047b21a135">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NIPM_API_(Beta)</Package_File_Name>
-    <Library_Version>2.0.0.3</Library_Version>
+    <Library_Version>2.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\NIPM Library</Library_Source_Folder>
     <Library_Output_Folder>..\Exports</Library_Output_Folder>
@@ -32,10 +32,7 @@
       <Copyright/>
       <Packager>National Instruments</Packager>
       <URL/>
-      <Release_Notes>Changed the Get Package Attribute VI output to use a cluster data type instead of a string.  Due to this data change, the major version for this API has changed from 1.0 to 2.0.
-Separated package attribute VIs into "Get Package Attributes" and "Get Package Attributes (All Versions)".
-Added Convert Package Attribute Cluster to 2D String VI.
-Cleaned up the API (Added connector pane terminals for feed name out, feed URI out, and package out. Configured required inputs where necessary.)</Release_Notes>
+      <Release_Notes>Updated Add Package to Feed VI to support adding package files that are already located in the feed's package destination folder.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -362,7 +359,7 @@ Cleaned up the API (Added connector pane terminals for feed name out, feed URI o
         <Path>..\NIPM Library\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A7DAD32158445B10F20BBBD55B6649A8</GUID>
+      <GUID>ACD4AFE43491DA83452CB4DF8F5D534E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -453,7 +450,7 @@ Cleaned up the API (Added connector pane terminals for feed name out, feed URI o
         <Path>..\NIPM Library\Refresh Feed (By URI).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4A770C3268B54DAD5B3FC2A41230D54B</GUID>
+      <GUID>DBBEAD68713001D4DFAAA514609C5030</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -572,7 +569,7 @@ Cleaned up the API (Added connector pane terminals for feed name out, feed URI o
         <Path>..\NIPM Library\Refresh All Feeds.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2CABDAF95D22732EBB6B217EAD71C4F4</GUID>
+      <GUID>81C0CF70967E2E00AC0DA7ADD3F4329B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -649,7 +646,7 @@ Cleaned up the API (Added connector pane terminals for feed name out, feed URI o
         <Path>..\NIPM Library\Check if Feed is Registered.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4F335D54F9F49ADECF2894E4A695D49F</GUID>
+      <GUID>3777A7874B610FA631ECD6EA4A74C6D6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
