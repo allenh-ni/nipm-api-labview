@@ -19,25 +19,25 @@
 		<Item Name="Copy (with overwritten indicator).vi" Type="VI" URL="../_support/Copy (with overwritten indicator).vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Get Boolean Package Attribute Value.vi" Type="VI" URL="../_support/Get Boolean Package Attribute Value.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Get Multi-Line Package Attribute Value.vi" Type="VI" URL="../_support/Get Multi-Line Package Attribute Value.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Get Single-Line Package Attribute Value.vi" Type="VI" URL="../_support/Get Single-Line Package Attribute Value.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Get String Array Package Attribute Value.vi" Type="VI" URL="../_support/Get String Array Package Attribute Value.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Get U64 Package Attribute Value.vi" Type="VI" URL="../_support/Get U64 Package Attribute Value.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Search Last Occurrence.vi" Type="VI" URL="../_support/Search Last Occurrence.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Convert Package Attribute String to Cluster.vi" Type="VI" URL="../_support/Convert Package Attribute String to Cluster.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Get Boolean Package Attribute Value.vi" Type="VI" URL="../../../../NIPM VM files/NIPM Get Package Attributes sandbox/_support/Get Boolean Package Attribute Value.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Get Multi-Line Package Attribute Value.vi" Type="VI" URL="../../../../NIPM VM files/NIPM Get Package Attributes sandbox/_support/Get Multi-Line Package Attribute Value.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Get Single-Line Package Attribute Value.vi" Type="VI" URL="../../../../NIPM VM files/NIPM Get Package Attributes sandbox/_support/Get Single-Line Package Attribute Value.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Get String Array Package Attribute Value.vi" Type="VI" URL="../../../../NIPM VM files/NIPM Get Package Attributes sandbox/_support/Get String Array Package Attribute Value.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Get U64 Package Attribute Value.vi" Type="VI" URL="../../../../NIPM VM files/NIPM Get Package Attributes sandbox/_support/Get U64 Package Attribute Value.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 	</Item>
@@ -45,7 +45,6 @@
 		<Item Name="Pack.vi" Type="VI" URL="../Pack.vi"/>
 		<Item Name="Unpack.vi" Type="VI" URL="../Unpack.vi"/>
 		<Item Name="Get CLI Version.vi" Type="VI" URL="../Get CLI Version.vi"/>
-		<Item Name="Download Package Dependencies.vi" Type="VI" URL="../Download Package Dependencies.vi"/>
 		<Item Name="Refresh Feed (By Name).vi" Type="VI" URL="../Refresh Feed (By Name).vi"/>
 		<Item Name="Refresh Feed (By URI).vi" Type="VI" URL="../Refresh Feed (By URI).vi"/>
 	</Item>
@@ -69,6 +68,7 @@
 	<Item Name="Install Package.vi" Type="VI" URL="../Install Package.vi"/>
 	<Item Name="Uninstall Package.vi" Type="VI" URL="../Uninstall Package.vi"/>
 	<Item Name="Compare Versions.vi" Type="VI" URL="../Compare Versions.vi"/>
+	<Item Name="Download Package.vi" Type="VI" URL="../Download Package.vi"/>
 	<Item Name="Get Package Attributes.vi" Type="VI" URL="../Get Package Attributes.vi"/>
 	<Item Name="Get Package Attributes (All Versions).vi" Type="VI" URL="../Get Package Attributes (All Versions).vi"/>
 	<Item Name="Get Package Available Versions.vi" Type="VI" URL="../Get Package Available Versions.vi"/>
