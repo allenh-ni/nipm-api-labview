@@ -45,6 +45,7 @@
 		<Item Name="Pack.vi" Type="VI" URL="../Pack.vi"/>
 		<Item Name="Unpack.vi" Type="VI" URL="../Unpack.vi"/>
 		<Item Name="Get CLI Version.vi" Type="VI" URL="../Get CLI Version.vi"/>
+		<Item Name="Download Package Dependencies.vi" Type="VI" URL="../Download Package Dependencies.vi"/>
 		<Item Name="Refresh Feed (By Name).vi" Type="VI" URL="../Refresh Feed (By Name).vi"/>
 		<Item Name="Refresh Feed (By URI).vi" Type="VI" URL="../Refresh Feed (By URI).vi"/>
 	</Item>
