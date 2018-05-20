@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-02 15:38:24" Modified_Date="2018-03-09 11:19:33" Creator="Bob Smith" Comments="" ID="28f7e90d2822d77dc3ea29047b21a135">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-02 15:38:24" Modified_Date="2018-05-19 15:57:37" Creator="Bob Smith" Comments="" ID="7afc1f750603d0f11f7aa4e8ea5e463b">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NIPM_API_(Beta)</Package_File_Name>
-    <Library_Version>2.0.0.4</Library_Version>
+    <Library_Version>2.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\NIPM Library</Library_Source_Folder>
     <Library_Output_Folder>..\Exports</Library_Output_Folder>
@@ -32,7 +32,8 @@
       <Copyright/>
       <Packager>National Instruments</Packager>
       <URL/>
-      <Release_Notes>Updated Add Package to Feed VI to support adding package files that are already located in the feed's package destination folder.</Release_Notes>
+      <Release_Notes>Added Download Package VI to the palette.
+Fixed Unpack VI's folderpath control's browse settings.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -359,7 +360,21 @@
         <Path>..\NIPM Library\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ACD4AFE43491DA83452CB4DF8F5D534E</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Download Package.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\NIPM Library\Download Package.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>605223BB3B0F4B2281E310564B38C73D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -450,7 +465,7 @@
         <Path>..\NIPM Library\Refresh Feed (By URI).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DBBEAD68713001D4DFAAA514609C5030</GUID>
+      <GUID>5548113AF0E7808548EC2B9B251C5FD2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -569,7 +584,7 @@
         <Path>..\NIPM Library\Refresh All Feeds.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>81C0CF70967E2E00AC0DA7ADD3F4329B</GUID>
+      <GUID>57E0FC0C2F48A7FAEE88E5DFE9EDA0E1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -646,7 +661,7 @@
         <Path>..\NIPM Library\Check if Feed is Registered.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3777A7874B610FA631ECD6EA4A74C6D6</GUID>
+      <GUID>A6EAB1CF71D9BD3494A82023E41A950C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
