@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-02 15:38:24" Modified_Date="2018-05-19 15:57:37" Creator="Bob Smith" Comments="" ID="7afc1f750603d0f11f7aa4e8ea5e463b">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-02 15:38:24" Modified_Date="2018-06-15 03:33:59" Creator="Bob Smith" Comments="" ID="aed8716ad5fd0e5875c695caf7abdc10">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NIPM_API_(Beta)</Package_File_Name>
-    <Library_Version>2.0.0.5</Library_Version>
+    <Library_Version>2.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\NIPM Library</Library_Source_Folder>
     <Library_Output_Folder>..\Exports</Library_Output_Folder>
@@ -32,8 +32,10 @@
       <Copyright/>
       <Packager>National Instruments</Packager>
       <URL/>
-      <Release_Notes>Added Download Package VI to the palette.
-Fixed Unpack VI's folderpath control's browse settings.</Release_Notes>
+      <Release_Notes>Added a new "List Installed Packages VI" to the palette.
+Improved the error handling logic and the API now returns unique error codes for different errors.
+If registering a feed returns an error, the Register Feed VI no longer wastes time refreshing all feeds.
+Fixed various documentation, such as VI descriptions.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -319,34 +321,6 @@ Fixed Unpack VI's folderpath control's browse settings.</Release_Notes>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>List Available Packages to Install.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\NIPM Library\List Available Packages to Install.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>List Upgradable Packages.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\NIPM Library\List Upgradable Packages.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
         <Type>Sub Palette</Type>
         <Sub_Palette_Index>1</Sub_Palette_Index>
         <NameSub_Menu_Name>Advanced</NameSub_Menu_Name>
@@ -374,7 +348,49 @@ Fixed Unpack VI's folderpath control's browse settings.</Release_Notes>
         <Path>..\NIPM Library\Download Package.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>605223BB3B0F4B2281E310564B38C73D</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>List Upgradable Packages.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\NIPM Library\List Upgradable Packages.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>List Available Packages to Install.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\NIPM Library\List Available Packages to Install.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>List Installed Packages.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\NIPM Library\List Installed Packages.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>F903B3C901ADFE4D9FA69F527D0D0504</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -465,7 +481,7 @@ Fixed Unpack VI's folderpath control's browse settings.</Release_Notes>
         <Path>..\NIPM Library\Refresh Feed (By URI).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5548113AF0E7808548EC2B9B251C5FD2</GUID>
+      <GUID>830C20C2DE9F73E194F66F0D216A4DDC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -584,7 +600,7 @@ Fixed Unpack VI's folderpath control's browse settings.</Release_Notes>
         <Path>..\NIPM Library\Refresh All Feeds.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>57E0FC0C2F48A7FAEE88E5DFE9EDA0E1</GUID>
+      <GUID>B7682730A91325BE05AB90DE0BD6FC1A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -661,7 +677,7 @@ Fixed Unpack VI's folderpath control's browse settings.</Release_Notes>
         <Path>..\NIPM Library\Check if Feed is Registered.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A6EAB1CF71D9BD3494A82023E41A950C</GUID>
+      <GUID>B3345237607FA7C1758E3D8D07A0706F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
