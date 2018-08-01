@@ -40,8 +40,32 @@
 		<Item Name="Convert Package Attribute String to Cluster.vi" Type="VI" URL="../_support/Convert Package Attribute String to Cluster.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Convert Package Attribute Cluster to String.vi" Type="VI" URL="../_support/Convert Package Attribute Cluster to String.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Set Boolean Package Attribute Value.vi" Type="VI" URL="../_support/Set Boolean Package Attribute Value.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Set U64 Package Attribute Value.vi" Type="VI" URL="../_support/Set U64 Package Attribute Value.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Set Single-Line Package Attribute Value.vi" Type="VI" URL="../_support/Set Single-Line Package Attribute Value.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Set Multi-Line Package Attribute Value.vi" Type="VI" URL="../_support/Set Multi-Line Package Attribute Value.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Set String Array Package Attribute Value.vi" Type="VI" URL="../_support/Set String Array Package Attribute Value.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 	</Item>
 	<Item Name="Advanced" Type="Folder">
+		<Item Name="Control File" Type="Folder">
+			<Item Name="Get Control File Attributes.vi" Type="VI" URL="../Get Control File Attributes.vi"/>
+			<Item Name="Set Control File Attribute (Version).vi" Type="VI" URL="../Set Control File Attribute (Version).vi"/>
+			<Item Name="Set Control File Attributes.vi" Type="VI" URL="../Set Control File Attributes.vi"/>
+		</Item>
+		<Item Name="Instructions File" Type="Folder"/>
 		<Item Name="Pack.vi" Type="VI" URL="../Pack.vi"/>
 		<Item Name="Unpack.vi" Type="VI" URL="../Unpack.vi"/>
 		<Item Name="Get CLI Version.vi" Type="VI" URL="../Get CLI Version.vi"/>
