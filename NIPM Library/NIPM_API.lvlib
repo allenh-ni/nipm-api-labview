@@ -19,6 +19,9 @@
 		<Item Name="Copy (with overwritten indicator).vi" Type="VI" URL="../_support/Copy (with overwritten indicator).vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Search for Attribute.vi" Type="VI" URL="../_support/Search for Attribute.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Get Boolean Package Attribute Value.vi" Type="VI" URL="../_support/Get Boolean Package Attribute Value.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
@@ -62,10 +65,9 @@
 	<Item Name="Advanced" Type="Folder">
 		<Item Name="Control File" Type="Folder">
 			<Item Name="Get Control File Attributes.vi" Type="VI" URL="../Get Control File Attributes.vi"/>
-			<Item Name="Set Control File Attribute (Version).vi" Type="VI" URL="../Set Control File Attribute (Version).vi"/>
 			<Item Name="Set Control File Attributes.vi" Type="VI" URL="../Set Control File Attributes.vi"/>
+			<Item Name="Set Control File Attribute (Version).vi" Type="VI" URL="../Set Control File Attribute (Version).vi"/>
 		</Item>
-		<Item Name="Instructions File" Type="Folder"/>
 		<Item Name="Pack.vi" Type="VI" URL="../Pack.vi"/>
 		<Item Name="Unpack.vi" Type="VI" URL="../Unpack.vi"/>
 		<Item Name="Get CLI Version.vi" Type="VI" URL="../Get CLI Version.vi"/>
@@ -87,8 +89,8 @@
 		<Item Name="Register Feed.vi" Type="VI" URL="../Register Feed.vi"/>
 		<Item Name="Unregister Feed.vi" Type="VI" URL="../Unregister Feed.vi"/>
 		<Item Name="List Registered Feeds.vi" Type="VI" URL="../List Registered Feeds.vi"/>
-		<Item Name="Check if Feed is Registered.vi" Type="VI" URL="../Check if Feed is Registered.vi"/>
 	</Item>
+	<Item Name="Check if Feed is Registered.vi" Type="VI" URL="../Check if Feed is Registered.vi"/>
 	<Item Name="Install Package.vi" Type="VI" URL="../Install Package.vi"/>
 	<Item Name="Uninstall Package.vi" Type="VI" URL="../Uninstall Package.vi"/>
 	<Item Name="Compare Versions.vi" Type="VI" URL="../Compare Versions.vi"/>
@@ -96,6 +98,7 @@
 	<Item Name="Get Package Attributes.vi" Type="VI" URL="../Get Package Attributes.vi"/>
 	<Item Name="Get Package Attributes (All Versions).vi" Type="VI" URL="../Get Package Attributes (All Versions).vi"/>
 	<Item Name="Get Package Available Versions.vi" Type="VI" URL="../Get Package Available Versions.vi"/>
+	<Item Name="Get Package Installed Version.vi" Type="VI" URL="../Get Package Installed Version.vi"/>
 	<Item Name="List Installed Packages.vi" Type="VI" URL="../List Installed Packages.vi"/>
 	<Item Name="List Available Packages to Install.vi" Type="VI" URL="../List Available Packages to Install.vi"/>
 	<Item Name="List Upgradable Packages.vi" Type="VI" URL="../List Upgradable Packages.vi"/>
