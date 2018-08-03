@@ -11,6 +11,8 @@ You can use this API to:
 * Register/unregister feeds
 * ...
 
+![alt text](images/nipm-beta-api-screenshot.png)
+
 ## How to Install
 Prerequisites:
 * LabVIEW 2014 or later
