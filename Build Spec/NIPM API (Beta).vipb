@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-02 15:38:24" Modified_Date="2018-08-03 12:40:29" Creator="Bob Smith" Comments="" ID="360869db8d6c78f78ad84bf2b546ae4e">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-02 15:38:24" Modified_Date="2018-08-03 17:52:38" Creator="Bob Smith" Comments="" ID="3241d54ce3e5b979065d15fc2cd0bc2a">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NIPM_API_(Beta)</Package_File_Name>
-    <Library_Version>2.1.0.2</Library_Version>
+    <Library_Version>2.1.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\NIPM Library</Library_Source_Folder>
     <Library_Output_Folder>..\Exports</Library_Output_Folder>
@@ -35,7 +35,12 @@ http://bitly/nipkg</Description>
       <Copyright/>
       <Packager>National Instruments</Packager>
       <URL/>
-      <Release_Notes>Added example VIs to help new users get started with the API.
+      <Release_Notes>Version 2.1.0.2
+Fixed typo in the documentation link in the example VIs.
+Improved the search algorithm for the Search for Attributes subVI (support) and propogated changes to its callers.
+
+Version 2.1.0.1
+Added example VIs to help new users get started with the API.
 Added a new Get Package Installed Version VI.
 Added optional Version input to Download Package VI.
 Added additional outputs to the Pack and Unpack VIs.
@@ -418,7 +423,7 @@ Added API version information to VI descriptions.</Release_Notes>
         <Path>..\NIPM Library\Convert Package Attribute Cluster to 2D String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>02CDD5EA451359835FE3BFFA7D1120FE</GUID>
+      <GUID>AEC077AB4258C562D7079F521F99C503</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -523,7 +528,7 @@ Added API version information to VI descriptions.</Release_Notes>
         <Path>..\NIPM Library\Control File</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CF42292BEFB3211583318FDB0D1CD24C</GUID>
+      <GUID>3343C46ABD93B627659CE36402E87133</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -642,7 +647,7 @@ Added API version information to VI descriptions.</Release_Notes>
         <Path>..\NIPM Library\Refresh All Feeds.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>49E9333B839F5170B471955E9DF21C31</GUID>
+      <GUID>1AF38F28AF6D25B78F6FE3E3D847BEA5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -719,7 +724,7 @@ Added API version information to VI descriptions.</Release_Notes>
         <Path>..\NIPM Library\Check if Feed is Registered.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2CE3786D34025F176A341F3DAF3D6F26</GUID>
+      <GUID>E4360734AD041B9B427A53729F73534B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -782,7 +787,7 @@ Added API version information to VI descriptions.</Release_Notes>
         <Path>..\NIPM Library\Set Control File Attribute (Version).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>90FFAF5D5781DBAD6A70AF01DB794186</GUID>
+      <GUID>F2CBF21E5CE75E66D021626ED71A2B82</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
