@@ -13,6 +13,8 @@ You can use this API to:
 
 ![alt text](images/nipm-beta-api-screenshot.png)
 
+You can find content, tutorials, and additional tools for NI package management at [bit.ly/nipkg](http://bit.ly/nipkg)
+
 ## How to Install
 Prerequisites:
 * LabVIEW 2014 or later
