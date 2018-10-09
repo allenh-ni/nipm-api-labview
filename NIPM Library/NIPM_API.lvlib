@@ -103,5 +103,6 @@
 	<Item Name="List Installed Packages.vi" Type="VI" URL="../List Installed Packages.vi"/>
 	<Item Name="List Available Packages to Install.vi" Type="VI" URL="../List Available Packages to Install.vi"/>
 	<Item Name="List Upgradable Packages.vi" Type="VI" URL="../List Upgradable Packages.vi"/>
+	<Item Name="List Feeds Containing Package.vi" Type="VI" URL="../List Feeds Containing Package.vi"/>
 	<Item Name="Convert Package Attribute Cluster to 2D String.vi" Type="VI" URL="../Convert Package Attribute Cluster to 2D String.vi"/>
 </Library>
