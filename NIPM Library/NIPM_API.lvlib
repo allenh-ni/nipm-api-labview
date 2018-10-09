@@ -89,12 +89,13 @@
 		<Item Name="Register Feed.vi" Type="VI" URL="../Register Feed.vi"/>
 		<Item Name="Unregister Feed.vi" Type="VI" URL="../Unregister Feed.vi"/>
 		<Item Name="List Registered Feeds.vi" Type="VI" URL="../List Registered Feeds.vi"/>
+		<Item Name="Check if Feed is Registered.vi" Type="VI" URL="../Check if Feed is Registered.vi"/>
 	</Item>
-	<Item Name="Check if Feed is Registered.vi" Type="VI" URL="../Check if Feed is Registered.vi"/>
 	<Item Name="Install Package.vi" Type="VI" URL="../Install Package.vi"/>
 	<Item Name="Uninstall Package.vi" Type="VI" URL="../Uninstall Package.vi"/>
 	<Item Name="Compare Versions.vi" Type="VI" URL="../Compare Versions.vi"/>
 	<Item Name="Download Package.vi" Type="VI" URL="../Download Package.vi"/>
+	<Item Name="Download Feed.vi" Type="VI" URL="../Download Feed.vi"/>
 	<Item Name="Get Package Attributes.vi" Type="VI" URL="../Get Package Attributes.vi"/>
 	<Item Name="Get Package Attributes (All Versions).vi" Type="VI" URL="../Get Package Attributes (All Versions).vi"/>
 	<Item Name="Get Package Available Versions.vi" Type="VI" URL="../Get Package Available Versions.vi"/>
