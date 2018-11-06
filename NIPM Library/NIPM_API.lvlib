@@ -16,6 +16,12 @@
 		<Item Name="Call NIPKG CLI.vi" Type="VI" URL="../_support/Call NIPKG CLI.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Call NIPKG CLI (runas admin).vi" Type="VI" URL="../_support/Call NIPKG CLI (runas admin).vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Check if Process if Running.vi" Type="VI" URL="../_support/Check if Process if Running.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Copy (with overwritten indicator).vi" Type="VI" URL="../_support/Copy (with overwritten indicator).vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
@@ -61,6 +67,12 @@
 		<Item Name="Set String Array Package Attribute Value.vi" Type="VI" URL="../_support/Set String Array Package Attribute Value.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Sort 1D Package Version Array.vi" Type="VI" URL="../_support/Sort 1D Package Version Array.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Swap Array Elements.vi" Type="VI" URL="../_support/Swap Array Elements.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 	</Item>
 	<Item Name="Advanced" Type="Folder">
 		<Item Name="Control File" Type="Folder">
@@ -93,16 +105,16 @@
 	</Item>
 	<Item Name="Install Package.vi" Type="VI" URL="../Install Package.vi"/>
 	<Item Name="Uninstall Package.vi" Type="VI" URL="../Uninstall Package.vi"/>
-	<Item Name="Compare Versions.vi" Type="VI" URL="../Compare Versions.vi"/>
-	<Item Name="Download Package.vi" Type="VI" URL="../Download Package.vi"/>
-	<Item Name="Download Feed.vi" Type="VI" URL="../Download Feed.vi"/>
-	<Item Name="Get Package Attributes.vi" Type="VI" URL="../Get Package Attributes.vi"/>
-	<Item Name="Get Package Attributes (All Versions).vi" Type="VI" URL="../Get Package Attributes (All Versions).vi"/>
 	<Item Name="Get Package Available Versions.vi" Type="VI" URL="../Get Package Available Versions.vi"/>
 	<Item Name="Get Package Installed Version.vi" Type="VI" URL="../Get Package Installed Version.vi"/>
+	<Item Name="Compare Versions.vi" Type="VI" URL="../Compare Versions.vi"/>
+	<Item Name="Get Package Attributes.vi" Type="VI" URL="../Get Package Attributes.vi"/>
+	<Item Name="Get Package Attributes (All Versions).vi" Type="VI" URL="../Get Package Attributes (All Versions).vi"/>
+	<Item Name="Convert Package Attribute Cluster to 2D String.vi" Type="VI" URL="../Convert Package Attribute Cluster to 2D String.vi"/>
 	<Item Name="List Installed Packages.vi" Type="VI" URL="../List Installed Packages.vi"/>
 	<Item Name="List Available Packages to Install.vi" Type="VI" URL="../List Available Packages to Install.vi"/>
 	<Item Name="List Upgradable Packages.vi" Type="VI" URL="../List Upgradable Packages.vi"/>
 	<Item Name="List Feeds Containing Package.vi" Type="VI" URL="../List Feeds Containing Package.vi"/>
-	<Item Name="Convert Package Attribute Cluster to 2D String.vi" Type="VI" URL="../Convert Package Attribute Cluster to 2D String.vi"/>
+	<Item Name="Download Package.vi" Type="VI" URL="../Download Package.vi"/>
+	<Item Name="Download Feed.vi" Type="VI" URL="../Download Feed.vi"/>
 </Library>
