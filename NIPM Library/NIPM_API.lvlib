@@ -105,6 +105,8 @@
 	</Item>
 	<Item Name="Install Package.vi" Type="VI" URL="../Install Package.vi"/>
 	<Item Name="Uninstall Package.vi" Type="VI" URL="../Uninstall Package.vi"/>
+	<Item Name="Upgrade Package.vi" Type="VI" URL="../Upgrade Package.vi"/>
+	<Item Name="Check if Package is Upgradable.vi" Type="VI" URL="../Check if Package is Upgradable.vi"/>
 	<Item Name="Get Package Available Versions.vi" Type="VI" URL="../Get Package Available Versions.vi"/>
 	<Item Name="Get Package Installed Version.vi" Type="VI" URL="../Get Package Installed Version.vi"/>
 	<Item Name="Compare Versions.vi" Type="VI" URL="../Compare Versions.vi"/>
