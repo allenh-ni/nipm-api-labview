@@ -13,8 +13,6 @@ You can use this API to:
 
 ![alt text](images/nipm-beta-api-screenshot.png)
 
-You must have NI Package Manager already installed on the computer for this API to work.
-
 You can find content, tutorials, and additional tools for NI package management at [bit.ly/nipkg](http://bit.ly/nipkg)
 
 ## How to Install
