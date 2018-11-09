@@ -5,13 +5,15 @@ NI Package Manager API (Beta) for LabVIEW 2014 or later.
 My goal is to provide users with a beta API for NI Package Manager tasks.  Please feel free to use this API, give feedback, and contribute.  NI will use this feedback to create an official NIPM API in the future.
 
 You can use this API to:
-* Install/uninstall packages
+* Install/uninstall/upgrade packages
 * Get package attributes
 * Create feeds, add packages to feeds, remove packages from feeds, list packages in feeds
 * Register/unregister feeds
 * ...
 
 ![alt text](images/nipm-beta-api-screenshot.png)
+
+You must have NI Package Manager already installed on the computer for this API to work.
 
 You can find content, tutorials, and additional tools for NI package management at [bit.ly/nipkg](http://bit.ly/nipkg)
 
@@ -27,9 +29,10 @@ Installation Instructions
 4. (Optional) Install the [NIPM Feed Manager (Beta)](https://github.com/allenh-ni/nipm-feed-manager-gui-labview), and use it to manage NIPM feeds and packages. 
 
 ## Documentation
-Refer to the Context Help for the installed API.
+Refer to the Context Help and examples that ship with the installed API.
 
-Note: Documentation for this API is still in work.
+## Support
+This API is not officially supported by National Instruments. You can use this GitHub repository to find the source code, report issues, and contribute.
 
 ## Source Code
 * **Source** folder - Contains the source code for this API.  At a low-level, this API calls the nipkg command-line interface (CLI).
