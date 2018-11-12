@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-02 15:38:24" Modified_Date="2018-11-09 10:55:31" Creator="Bob Smith" Comments="" ID="ea941a0c1d5ef6dd19044e45328b8b0a">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-02 15:38:24" Modified_Date="2018-11-09 18:31:13" Creator="Bob Smith" Comments="" ID="7febbd4796c5577e280eefbe77a87b6d">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NIPM_API_(Beta)</Package_File_Name>
-    <Library_Version>3.0.0.2</Library_Version>
+    <Library_Version>3.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\NIPM Library</Library_Source_Folder>
     <Library_Output_Folder>..\Exports</Library_Output_Folder>
@@ -45,7 +45,8 @@ Install Package VI and Uninstall Package VI now run successfully with Windows ad
 user has admin rights.
 Fixed bug for Get Package Available Versions VI, which now returns an array of available versions from highest to lowest version correctly.
 Modified the List Upgradable Packages VI so that this VI outputs a 2D string array (table) that now lists not only the upgradable package names but also the package versions to update to.  Note: This is a breaking change because the data type changed from 1D array to 2D array.
-Added detailed context help for VI description and input/output descriptions for all VIs in this API.</Release_Notes>
+Added detailed context help for VI description and input/output descriptions for all VIs in this API.
+Separated compiled code from VIs.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -496,7 +497,7 @@ Added detailed context help for VI description and input/output descriptions for
         <Path>..\NIPM Library\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1A3CB0685A1FE1E048191EC80F9F81BE</GUID>
+      <GUID>E5456633892A72EDE21FD9910BCC6DDD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -601,7 +602,7 @@ Added detailed context help for VI description and input/output descriptions for
         <Path>..\NIPM Library\Control File</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>666A61658565047DBB56B035736041C4</GUID>
+      <GUID>29358906EC580C73461AFB056FED3C64</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -748,7 +749,7 @@ Added detailed context help for VI description and input/output descriptions for
         <Path>..\NIPM Library\Download Feed.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E400ED65FA96258C49A2E77AAC9AD0AE</GUID>
+      <GUID>CC7AADBDE29C476EB1AB5FA7535001A9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -825,7 +826,7 @@ Added detailed context help for VI description and input/output descriptions for
         <Path>..\NIPM Library\Check if Feed is Registered.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>07D4BEE0B5E3B64CB75F41E33F341022</GUID>
+      <GUID>9782A5674A630738986A142F3CE4CAB4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -888,7 +889,7 @@ Added detailed context help for VI description and input/output descriptions for
         <Path>..\NIPM Library\Set Control File Attribute (Version).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>37FEE76735743B849C1568B2DDCE3072</GUID>
+      <GUID>2C5063FECEEAD670C7EF470E0C99A43D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
