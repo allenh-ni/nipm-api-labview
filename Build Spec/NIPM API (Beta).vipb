@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-02 15:38:24" Modified_Date="2018-11-09 18:31:13" Creator="Bob Smith" Comments="" ID="7febbd4796c5577e280eefbe77a87b6d">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-02 15:38:24" Modified_Date="2018-12-14 14:37:44" Creator="Bob Smith" Comments="" ID="4d7704f206704b4bf80f7cefdda3a7a1">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NIPM_API_(Beta)</Package_File_Name>
-    <Library_Version>3.0.0.3</Library_Version>
+    <Library_Version>3.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\NIPM Library</Library_Source_Folder>
     <Library_Output_Folder>..\Exports</Library_Output_Folder>
@@ -44,6 +44,7 @@ https://github.com/allenh-ni/nipm-api-labview</Description>
 Install Package VI and Uninstall Package VI now run successfully with Windows admin rights if the current 
 user has admin rights.
 Fixed bug for Get Package Available Versions VI, which now returns an array of available versions from highest to lowest version correctly.
+Fixed bug for Set Package Attributes VI in the Set Multi-Line Package Attribute Value subVI (private).  This VI now correctly formats multi-line attributes that has a non-alphabet character at the beginning of a line.  Previously, this resulted in an incorrectly formated control file.
 Modified the List Upgradable Packages VI so that this VI outputs a 2D string array (table) that now lists not only the upgradable package names but also the package versions to update to.  Note: This is a breaking change because the data type changed from 1D array to 2D array.
 Added detailed context help for VI description and input/output descriptions for all VIs in this API.
 Separated compiled code from VIs.</Release_Notes>
@@ -497,7 +498,7 @@ Separated compiled code from VIs.</Release_Notes>
         <Path>..\NIPM Library\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E5456633892A72EDE21FD9910BCC6DDD</GUID>
+      <GUID>0D7AD348C4ECD544BB9285996C7DA2DD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -602,7 +603,7 @@ Separated compiled code from VIs.</Release_Notes>
         <Path>..\NIPM Library\Control File</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>29358906EC580C73461AFB056FED3C64</GUID>
+      <GUID>2BFE8B7E65FD1118CDFE2430BB1161AB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -749,7 +750,7 @@ Separated compiled code from VIs.</Release_Notes>
         <Path>..\NIPM Library\Download Feed.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CC7AADBDE29C476EB1AB5FA7535001A9</GUID>
+      <GUID>A4D8042F217B3D67DCDC630583BB4762</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -826,7 +827,7 @@ Separated compiled code from VIs.</Release_Notes>
         <Path>..\NIPM Library\Check if Feed is Registered.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9782A5674A630738986A142F3CE4CAB4</GUID>
+      <GUID>BE2267118CD47D6929163FABFFB7FC3D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -889,7 +890,7 @@ Separated compiled code from VIs.</Release_Notes>
         <Path>..\NIPM Library\Set Control File Attribute (Version).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2C5063FECEEAD670C7EF470E0C99A43D</GUID>
+      <GUID>0C0C31808596AFABC90153E56DE25C82</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
