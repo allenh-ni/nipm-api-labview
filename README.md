@@ -19,6 +19,7 @@ You can find content, tutorials, and additional tools for NI package management 
 Prerequisites:
 * LabVIEW 2014 or later
 * [NI Package Manager](http://www.ni.com/downloads/ni-package-manager) 17.5 or later
+* Operating System: Refer to the OS requirements for NI Package Manager
 
 Installation Instructions
 1. Click on the [Exports](https://github.com/allenh-ni/nipm-api-labview/tree/master/Exports) folder, and download the most recent .vip file (VIPM package).
