@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-02 15:38:24" Modified_Date="2018-12-14 14:37:44" Creator="Bob Smith" Comments="" ID="4d7704f206704b4bf80f7cefdda3a7a1">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-02 15:38:24" Modified_Date="2018-12-19 16:10:44" Creator="Bob Smith" Comments="" ID="722814b41eb496f53849abc5a92117f7">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NIPM_API_(Beta)</Package_File_Name>
-    <Library_Version>3.0.0.4</Library_Version>
+    <Library_Version>3.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\NIPM Library</Library_Source_Folder>
     <Library_Output_Folder>..\Exports</Library_Output_Folder>
@@ -498,7 +498,7 @@ Separated compiled code from VIs.</Release_Notes>
         <Path>..\NIPM Library\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0D7AD348C4ECD544BB9285996C7DA2DD</GUID>
+      <GUID>3EF9FE5AC9F055D00CEDCEAD58C56140</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -603,7 +603,7 @@ Separated compiled code from VIs.</Release_Notes>
         <Path>..\NIPM Library\Control File</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2BFE8B7E65FD1118CDFE2430BB1161AB</GUID>
+      <GUID>A1B07DD76DE9EF5C17445A4A6A37C333</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -750,7 +750,7 @@ Separated compiled code from VIs.</Release_Notes>
         <Path>..\NIPM Library\Download Feed.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A4D8042F217B3D67DCDC630583BB4762</GUID>
+      <GUID>62CC954C9284222BAD53D5B3C93056C6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -827,7 +827,7 @@ Separated compiled code from VIs.</Release_Notes>
         <Path>..\NIPM Library\Check if Feed is Registered.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BE2267118CD47D6929163FABFFB7FC3D</GUID>
+      <GUID>2012C3E636778C190B8068BF20C56F1A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -890,7 +890,7 @@ Separated compiled code from VIs.</Release_Notes>
         <Path>..\NIPM Library\Set Control File Attribute (Version).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0C0C31808596AFABC90153E56DE25C82</GUID>
+      <GUID>0A50DE05A28210901FB9AC6A25200961</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
