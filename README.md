@@ -24,7 +24,7 @@ Prerequisites:
 Installation Instructions
 1. From LabVIEW, launch **Tools»VI Package Manager**, search for "NIPM API", and install it.
 ![alt text](images/nipm-api-on-vipm.png)
-2. In LabVIEW, access the NIPM API by going to the **Functions Palette»Addons»NIPM API (Beta)**.
+2. In LabVIEW, access the NIPM API by going to the **Functions Palette»Addons»NIPM API**.
 3. (Optional) Install the [NIPM Feed Manager (Beta)](https://github.com/allenh-ni/nipm-feed-manager-gui-labview), and use it to manage NIPM feeds and packages. 
 
 Note: If necessary, you can find historical versions in the [Exports](https://github.com/allenh-ni/nipm-api-labview/tree/master/Exports) folder.
