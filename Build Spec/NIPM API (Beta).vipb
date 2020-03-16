@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-02 15:38:24" Modified_Date="2019-09-23 23:05:05" Creator="Bob Smith" Comments="" ID="5bdacab5ac223eedf53aded4853e2657">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-01-02 15:38:24" Modified_Date="2020-03-16 13:13:30" Creator="Bob Smith" Comments="" ID="30043ec6948752a22e90c34be69a10b8">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NIPM_API_(Beta)</Package_File_Name>
-    <Library_Version>3.1.0.7</Library_Version>
+    <Library_Version>3.1.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\NIPM Library</Library_Source_Folder>
     <Library_Output_Folder>..\Exports</Library_Output_Folder>
@@ -40,9 +40,7 @@ https://github.com/allenh-ni/nipm-api-labview</Description>
       <Copyright/>
       <Packager>National Instruments</Packager>
       <URL>https://github.com/allenh-ni/nipm-api-labview</URL>
-      <Release_Notes>The Install Package VI now supports an "include recommended packages" input if NIPM 19.5 or later is installed.
-The "Get Package Attributes" and "Get Package Attributes (All Versions)" VIs now check for package attribute data in installed packages (in addition to checking packages in registered feeds).
-</Release_Notes>
+      <Release_Notes>Adding Get Package Dependencies : https://github.com/allenh-ni/nipm-api-labview/issues/5</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -98,6 +96,11 @@ The "Get Package Attributes" and "Get Package Attributes (All Versions)" VIs now
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </Project_Provider>
+      <QuickDrop_Plugins>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </QuickDrop_Plugins>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -342,20 +345,6 @@ The "Get Package Attributes" and "Get Package Attributes (All Versions)" VIs now
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Compare Versions.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\NIPM Library\Compare Versions.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Get Package Installed Version.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -365,20 +354,6 @@ The "Get Package Attributes" and "Get Package Attributes (All Versions)" VIs now
         </Position>
         <Icon>00000000</Icon>
         <Path>..\NIPM Library\Get Package Installed Version.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Convert Package Attribute Cluster to 2D String.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\NIPM Library\Convert Package Attribute Cluster to 2D String.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -493,7 +468,49 @@ The "Get Package Attributes" and "Get Package Attributes (All Versions)" VIs now
         <Path>..\NIPM Library\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0A0A08520E05E7BA915162A4D46A7C40</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Get Package Dependencies.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\NIPM Library\Get Package Dependencies.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Convert Package Attribute Cluster to 2D String.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\NIPM Library\Convert Package Attribute Cluster to 2D String.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Compare Versions.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\NIPM Library\Compare Versions.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>5A3749A3A298B24307BCB321786A053F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -598,7 +615,7 @@ The "Get Package Attributes" and "Get Package Attributes (All Versions)" VIs now
         <Path>..\NIPM Library\Control File</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>804CF0A47B7D045C84BFCD63DF85E8B9</GUID>
+      <GUID>3B96BAF991E217F886F1EAC41C65745D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -745,7 +762,7 @@ The "Get Package Attributes" and "Get Package Attributes (All Versions)" VIs now
         <Path>..\NIPM Library\Download Feed.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>320642B865178833999FFD52E9CEFE4D</GUID>
+      <GUID>A700336C2BF4734375C1C68650D99219</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -822,7 +839,7 @@ The "Get Package Attributes" and "Get Package Attributes (All Versions)" VIs now
         <Path>..\NIPM Library\Check if Feed is Registered.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AEDB81CDD99A12E8FC85D5FA369005AD</GUID>
+      <GUID>25702B9B648456E0BB70A0C43A15D43D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -885,7 +902,7 @@ The "Get Package Attributes" and "Get Package Attributes (All Versions)" VIs now
         <Path>..\NIPM Library\Set Control File Attribute (Version).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>77B765678851BF708DEB2D94EE136CB3</GUID>
+      <GUID>8B3E55045301E21A1309E962BA69DDF2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
