@@ -9,29 +9,33 @@
 
 </Property>
 	<Item Name="_support" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="feed.ctl" Type="VI" URL="../_support/feed.ctl"/>
-		<Item Name="Version Comparison Operator.ctl" Type="VI" URL="../_support/Version Comparison Operator.ctl"/>
-		<Item Name="package attributes.ctl" Type="VI" URL="../_support/package attributes.ctl"/>
-		<Item Name="Call NIPKG CLI.vi" Type="VI" URL="../_support/Call NIPKG CLI.vi">
+		<Property Name="NI.SortType" Type="Int">1</Property>
+		<Item Name="Call NIPKG CLI (runas admin).vi" Type="VI" URL="../_support/Call NIPKG CLI (runas admin).vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Call NIPKG CLI (runas admin).vi" Type="VI" URL="../_support/Call NIPKG CLI (runas admin).vi">
+		<Item Name="Call NIPKG CLI.vi" Type="VI" URL="../_support/Call NIPKG CLI.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Check if Process if Running.vi" Type="VI" URL="../_support/Check if Process if Running.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Convert Package Attribute Cluster to String.vi" Type="VI" URL="../_support/Convert Package Attribute Cluster to String.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Convert Package Attribute String to Cluster.vi" Type="VI" URL="../_support/Convert Package Attribute String to Cluster.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Copy (with overwritten indicator).vi" Type="VI" URL="../_support/Copy (with overwritten indicator).vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Search for Attribute.vi" Type="VI" URL="../_support/Search for Attribute.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
+		<Item Name="feed.ctl" Type="VI" URL="../_support/feed.ctl"/>
 		<Item Name="Get Boolean Package Attribute Value.vi" Type="VI" URL="../_support/Get Boolean Package Attribute Value.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Get Multi-Line Package Attribute Value.vi" Type="VI" URL="../_support/Get Multi-Line Package Attribute Value.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Get Package Names and Versions.vi" Type="VI" URL="../_support/Get Package Names and Versions.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Get Single-Line Package Attribute Value.vi" Type="VI" URL="../_support/Get Single-Line Package Attribute Value.vi">
@@ -43,28 +47,26 @@
 		<Item Name="Get U64 Package Attribute Value.vi" Type="VI" URL="../_support/Get U64 Package Attribute Value.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="package attributes.ctl" Type="VI" URL="../_support/package attributes.ctl"/>
+		<Item Name="Search for Attribute.vi" Type="VI" URL="../_support/Search for Attribute.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Search Last Occurrence.vi" Type="VI" URL="../_support/Search Last Occurrence.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Convert Package Attribute String to Cluster.vi" Type="VI" URL="../_support/Convert Package Attribute String to Cluster.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Convert Package Attribute Cluster to String.vi" Type="VI" URL="../_support/Convert Package Attribute Cluster to String.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Set Boolean Package Attribute Value.vi" Type="VI" URL="../_support/Set Boolean Package Attribute Value.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Set U64 Package Attribute Value.vi" Type="VI" URL="../_support/Set U64 Package Attribute Value.vi">
+		<Item Name="Set Multi-Line Package Attribute Value.vi" Type="VI" URL="../_support/Set Multi-Line Package Attribute Value.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Set Single-Line Package Attribute Value.vi" Type="VI" URL="../_support/Set Single-Line Package Attribute Value.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Set Multi-Line Package Attribute Value.vi" Type="VI" URL="../_support/Set Multi-Line Package Attribute Value.vi">
+		<Item Name="Set String Array Package Attribute Value.vi" Type="VI" URL="../_support/Set String Array Package Attribute Value.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Set String Array Package Attribute Value.vi" Type="VI" URL="../_support/Set String Array Package Attribute Value.vi">
+		<Item Name="Set U64 Package Attribute Value.vi" Type="VI" URL="../_support/Set U64 Package Attribute Value.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Sort 1D Package Version Array.vi" Type="VI" URL="../_support/Sort 1D Package Version Array.vi">
@@ -73,6 +75,7 @@
 		<Item Name="Swap Array Elements.vi" Type="VI" URL="../_support/Swap Array Elements.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Version Comparison Operator.ctl" Type="VI" URL="../_support/Version Comparison Operator.ctl"/>
 	</Item>
 	<Item Name="Advanced" Type="Folder">
 		<Item Name="Control File" Type="Folder">
@@ -112,6 +115,7 @@
 	<Item Name="Compare Versions.vi" Type="VI" URL="../Compare Versions.vi"/>
 	<Item Name="Get Package Attributes.vi" Type="VI" URL="../Get Package Attributes.vi"/>
 	<Item Name="Get Package Attributes (All Versions).vi" Type="VI" URL="../Get Package Attributes (All Versions).vi"/>
+	<Item Name="Get Package Dependencies.vi" Type="VI" URL="../Get Package Dependencies.vi"/>
 	<Item Name="Convert Package Attribute Cluster to 2D String.vi" Type="VI" URL="../Convert Package Attribute Cluster to 2D String.vi"/>
 	<Item Name="List Installed Packages.vi" Type="VI" URL="../List Installed Packages.vi"/>
 	<Item Name="List Available Packages to Install.vi" Type="VI" URL="../List Available Packages to Install.vi"/>
