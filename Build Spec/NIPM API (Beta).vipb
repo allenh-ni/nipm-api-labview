@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-02 15:38:24" Modified_Date="2020-03-16 21:01:27" Creator="Bob Smith" Comments="" ID="d88f9a9674e203b93d59a84c05680e61">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-02 15:38:24" Modified_Date="2019-09-23 23:05:05" Creator="Bob Smith" Comments="" ID="5bdacab5ac223eedf53aded4853e2657">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NIPM_API_(Beta)</Package_File_Name>
-    <Library_Version>3.1.0.8</Library_Version>
+    <Library_Version>3.1.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\NIPM Library</Library_Source_Folder>
     <Library_Output_Folder>..\Exports</Library_Output_Folder>
@@ -40,7 +40,8 @@ https://github.com/allenh-ni/nipm-api-labview</Description>
       <Copyright/>
       <Packager>National Instruments</Packager>
       <URL>https://github.com/allenh-ni/nipm-api-labview</URL>
-      <Release_Notes>Adding Get Package Dependencies : https://github.com/allenh-ni/nipm-api-labview/issues/5
+      <Release_Notes>The Install Package VI now supports an "include recommended packages" input if NIPM 19.5 or later is installed.
+The "Get Package Attributes" and "Get Package Attributes (All Versions)" VIs now check for package attribute data in installed packages (in addition to checking packages in registered feeds).
 </Release_Notes>
     </Description>
     <Destinations>
@@ -341,6 +342,20 @@ https://github.com/allenh-ni/nipm-api-labview</Description>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Compare Versions.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\NIPM Library\Compare Versions.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Get Package Installed Version.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -350,6 +365,20 @@ https://github.com/allenh-ni/nipm-api-labview</Description>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\NIPM Library\Get Package Installed Version.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Convert Package Attribute Cluster to 2D String.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\NIPM Library\Convert Package Attribute Cluster to 2D String.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -464,49 +493,7 @@ https://github.com/allenh-ni/nipm-api-labview</Description>
         <Path>..\NIPM Library\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Compare Versions.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\NIPM Library\Compare Versions.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Convert Package Attribute Cluster to 2D String.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\NIPM Library\Convert Package Attribute Cluster to 2D String.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get Package Dependencies.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\NIPM Library\Get Package Dependencies.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>121E62A5676316E7378A0B2C4652E43F</GUID>
+      <GUID>0A0A08520E05E7BA915162A4D46A7C40</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -611,7 +598,7 @@ https://github.com/allenh-ni/nipm-api-labview</Description>
         <Path>..\NIPM Library\Control File</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2D4DBBE6FC8D81AF0D1636EB542513E7</GUID>
+      <GUID>804CF0A47B7D045C84BFCD63DF85E8B9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -758,7 +745,7 @@ https://github.com/allenh-ni/nipm-api-labview</Description>
         <Path>..\NIPM Library\Download Feed.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>61343E2FF9DA84385A7924B025848520</GUID>
+      <GUID>320642B865178833999FFD52E9CEFE4D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -835,7 +822,7 @@ https://github.com/allenh-ni/nipm-api-labview</Description>
         <Path>..\NIPM Library\Check if Feed is Registered.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C81479E9ABEC46BCFCE024C779C6397C</GUID>
+      <GUID>AEDB81CDD99A12E8FC85D5FA369005AD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -898,7 +885,7 @@ https://github.com/allenh-ni/nipm-api-labview</Description>
         <Path>..\NIPM Library\Set Control File Attribute (Version).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>46C7D72248E5F7444D793922E0D5E778</GUID>
+      <GUID>77B765678851BF708DEB2D94EE136CB3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
