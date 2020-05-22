@@ -9,7 +9,7 @@
 
 </Property>
 	<Item Name="_support" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">1</Property>
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Call NIPKG CLI (runas admin).vi" Type="VI" URL="../_support/Call NIPKG CLI (runas admin).vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
@@ -94,6 +94,7 @@
 		<Item Name="Open Feed.vi" Type="VI" URL="../Open Feed.vi"/>
 		<Item Name="Add Package to Feed.vi" Type="VI" URL="../Add Package to Feed.vi"/>
 		<Item Name="Remove Package from Feed.vi" Type="VI" URL="../Remove Package from Feed.vi"/>
+		<Item Name="Remove N Packages from Feed.vi" Type="VI" URL="../Remove N Packages from Feed.vi"/>
 		<Item Name="List Packages in Feed.vi" Type="VI" URL="../List Packages in Feed.vi"/>
 		<Item Name="Check if Package Exists in Feed.vi" Type="VI" URL="../Check if Package Exists in Feed.vi"/>
 		<Item Name="Refresh Feed (By Folder).vi" Type="VI" URL="../Refresh Feed (By Folder).vi"/>
