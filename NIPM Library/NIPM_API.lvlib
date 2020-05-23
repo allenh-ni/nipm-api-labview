@@ -9,7 +9,7 @@
 
 </Property>
 	<Item Name="_support" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Property Name="NI.SortType" Type="Int">1</Property>
 		<Item Name="Call NIPKG CLI (runas admin).vi" Type="VI" URL="../_support/Call NIPKG CLI (runas admin).vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
@@ -28,7 +28,13 @@
 		<Item Name="Copy (with overwritten indicator).vi" Type="VI" URL="../_support/Copy (with overwritten indicator).vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Create Quoted Filepath.vi" Type="VI" URL="../_support/Create Quoted Filepath.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="feed.ctl" Type="VI" URL="../_support/feed.ctl"/>
+		<Item Name="Get Add Package Command.vi" Type="VI" URL="../_support/Get Add Package Command.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Get Boolean Package Attribute Value.vi" Type="VI" URL="../_support/Get Boolean Package Attribute Value.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
@@ -93,6 +99,7 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Open Feed.vi" Type="VI" URL="../Open Feed.vi"/>
 		<Item Name="Add Package to Feed.vi" Type="VI" URL="../Add Package to Feed.vi"/>
+		<Item Name="Add N Packages to Feed.vi" Type="VI" URL="../Add N Packages to Feed.vi"/>
 		<Item Name="Remove Package from Feed.vi" Type="VI" URL="../Remove Package from Feed.vi"/>
 		<Item Name="Remove N Packages from Feed.vi" Type="VI" URL="../Remove N Packages from Feed.vi"/>
 		<Item Name="List Packages in Feed.vi" Type="VI" URL="../List Packages in Feed.vi"/>
